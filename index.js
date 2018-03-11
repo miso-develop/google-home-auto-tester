@@ -6,8 +6,9 @@ const googlehome = require('google-home-notifier')
 
 const file = 'data.csv'
 
-googlehome.device('', 'ja')
+// IPを入力して下さい
 googlehome.ip('192.168.xxx.xxx')
+googlehome.device('', 'ja')
 
 const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
 
