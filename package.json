@@ -1,0 +1,25 @@
+{
+  "name": "google-home-auto-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "csv-parse": "^2.0.4",
+    "google-home-notifier": "^1.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miso-develop/google-home-auto-tester.git"
+  },
+  "author": "Miso Tanaka <miso.develop@gmail.com> (https://github.com/miso-develop/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miso-develop/google-home-auto-tester/issues"
+  },
+  "homepage": "https://github.com/miso-develop/google-home-auto-tester#readme"
+}
